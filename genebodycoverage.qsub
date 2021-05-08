@@ -1,0 +1,19 @@
+#!/bin/bash -l
+
+#$ -P bf528
+#$ -cwd
+#$ -j y
+#$ -pe mpi_16_tasks_per_node 16
+
+echo "Running job $JOB_ID"
+echo "Started: $(date +%F)"
+echo "Running in director: $PWD"
+
+#loading the packages needed (rseqc within Python3)
+module load python3 samtools rseqc
+
+#running the geneBody_coverage.py script which calculates the RNA-seq reads coverage over the entire gene body
+geneBody_coverage.py -r /project/bf528/project_2/reference/annot/mm9.bed -i accepted_hits.bam -o P0_1_genebodycoverage
+
+echo "Job finished: $(date +%F)"
+
