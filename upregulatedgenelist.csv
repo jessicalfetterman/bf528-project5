@@ -1,0 +1,24 @@
+,,DAVID,,,
+,,GO Pathways,,,
+,,,,,
+,,Up-regulated,Count,P-value,Benjamini
+Cluster 1,Enrichment Score: 21.24,Mitochondrion,257,1.5x10-49,1x10-46
+,,Mitochondrial part,163,1.5x10-44,5.2x10-42
+,,Mitochondrial Inner membrane,94,9.4x10-32,2.2x10-29
+,,Mitochondrial envelope,120,1.5x10-31,2.7x10-29
+Cluster 2,Enrichment Score: 15.14,Organic acid metabolic process,,,
+,,Oxoacid metabolic process,113,5.5x10-22,1.2x10-18
+,,Carboxylic acid metabolic process,105,3.4x10-21,4.4x10-18
+,,Monocarboxylic acid metabolic process,104,6.3x10-21,6.8x10-18
+Cluster 3,Enrichment Score: 15.05,Generation of Precursor Metabolites and Energy,,,
+,,Energy derivation by oxidation of organic compounds,72,5.2x10-27,1.7x10-23
+,,Purine ribonucleoside metabolic process,54,2.5x10-21,4.0x10-18
+,,Purine nucleoside metabolic process,57,3.0x10-19,2.1x10-16
+Cluster 4,Enrichment Score: 10.68,Extracellular organelle,246,4.5x10-16,1.8x10-14
+,,Extracellular vesicle,243,2.4x10-15,8.0x10-14
+,,Extracellular exosome,241,4.8x10-15,1.5x10-13
+,,Membrane-bounded vesicle,271,7.1x10-10,2.1x10-8
+Cluster 5,Enrichment Score: 6.86,Contractile fiber,37,2.2x10-8,6.1x10-7
+,,Myofibril,36,2.2x10-8,6.1x10-7
+,,I band,26,2.0x10-7,5.0x10-6
+,,Sarcomere,32,2.0x10-7,5.0x10-6
